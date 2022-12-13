@@ -14,10 +14,10 @@
 # sed -i 's/192.168.1.1/192.168.1.3/g' package/base-files/files/bin/config_generate
 
 # Hostname
-sed -i 's/OpenWrt/qnmlgb/g' package/base-files/files/bin/config_generate
+# sed -i 's/OpenWrt/qnmlgb/g' package/base-files/files/bin/config_generate
 
 # Enable AAAA
-sed -i 's/filter_aaaa	1/filter_aaaa	0/g' package/network/services/dnsmasq/files/dhcp.conf
+# sed -i 's/filter_aaaa	1/filter_aaaa	0/g' package/network/services/dnsmasq/files/dhcp.conf
 
 # Timezone
 #sed -i "s/'UTC'/'CST-8'\n   set system.@system[-1].zonename='Asia\/Shanghai'/g" package/base-files/files/bin/config_generate
